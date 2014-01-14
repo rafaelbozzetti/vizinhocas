@@ -1,0 +1,16 @@
+AuthController
+ [x]  404
+ [x] Index action login form
+ [x] Login invalid method
+ [x] Login
+ [x] Logout
+
+IndexController
+ [x]  404
+ [x] Save action new request
+ [x] Save action update form request
+ [ ] Save action post request
+ [x] Save action invalid post request
+ [x] Invalid delete action
+ [x] Delete action
+

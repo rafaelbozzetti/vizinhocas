@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Admin Test Suite" tests="12" assertions="36" failures="1" errors="0" time="16.241532">
+    <testsuite name="AuthControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/AuthControllerTest.php" tests="5" assertions="15" failures="0" errors="0" time="6.482040">
+      <testcase name="test404" class="AuthControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/AuthControllerTest.php" line="29" assertions="1" time="1.153517"/>
+      <testcase name="testIndexActionLoginForm" class="AuthControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/AuthControllerTest.php" line="37" assertions="8" time="1.011355"/>
+      <testcase name="testLoginInvalidMethod" class="AuthControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/AuthControllerTest.php" line="72" assertions="2" time="1.408112"/>
+      <testcase name="testLogin" class="AuthControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/AuthControllerTest.php" line="81" assertions="2" time="1.555170"/>
+      <testcase name="testLogout" class="AuthControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/AuthControllerTest.php" line="101" assertions="2" time="1.353886"/>
+    </testsuite>
+    <testsuite name="IndexControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/IndexControllerTest.php" tests="7" assertions="21" failures="1" errors="0" time="9.759492">
+      <testcase name="test404" class="IndexControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/IndexControllerTest.php" line="31" assertions="1" time="1.143094"/>
+      <testcase name="testSaveActionNewRequest" class="IndexControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/IndexControllerTest.php" line="43" assertions="5" time="1.094000"/>
+      <testcase name="testSaveActionUpdateFormRequest" class="IndexControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/IndexControllerTest.php" line="69" assertions="6" time="1.576624"/>
+      <testcase name="testSaveActionPostRequest" class="IndexControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/IndexControllerTest.php" line="103" assertions="2" time="1.421923">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">IndexControllerTest::testSaveActionPostRequest
+Failed asserting that 0 matches expected 1.
+
+/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/IndexControllerTest.php:122
+</failure>
+      </testcase>
+      <testcase name="testSaveActionInvalidPostRequest" class="IndexControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/IndexControllerTest.php" line="131" assertions="3" time="1.413943"/>
+      <testcase name="testInvalidDeleteAction" class="IndexControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/IndexControllerTest.php" line="162" assertions="2" time="1.567394"/>
+      <testcase name="testDeleteAction" class="IndexControllerTest" file="/home/rafael/www/vizinhocas/module/Admin/tests/src/Admin/Controller/IndexControllerTest.php" line="177" assertions="2" time="1.542514"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
