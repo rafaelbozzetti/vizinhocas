@@ -10,11 +10,10 @@
 namespace Application;
 
 use Zend\Mvc\ModuleRouteListener;
-use Zend\Mvc\MvcEvent;
 
 class Module
 {
-    public function onBootstrap(MvcEvent $e)
+    public function onBootstrap($e)
     {
         $e->getApplication()->getServiceManager()->get('translator');
         $eventManager        = $e->getApplication()->getEventManager();
